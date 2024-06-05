@@ -1,7 +1,7 @@
 {
   "semi": true,
   "tabWidth": 2,
-  "printWidth": 100,
+  "printWidth": 80,
   "singleQuote": false,
   "trailingComma": "all",
   "importOrder": ["^[./]"],
@@ -11,5 +11,7 @@
     "prettier-plugin-tailwindcss",
     "@trivago/prettier-plugin-sort-imports"
   ],
-  "tailwindFunctions": ["clsx", "cn", "twMerge"]
+  "arrowParens": "always",
+  "tailwindFunctions": ["clsx", "cn", "twMerge"],
+  "importOrderParserPlugins": ["typescript", "decorators-legacy"]
 }
